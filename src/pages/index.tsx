@@ -30,12 +30,10 @@ export default function Home() {
           <DrawingCanvas />
         </div>
 
-        <div style={{
-          
-        }}>
+        <div>
           Se utilizó una red neuronal convolucional con las siguientes capas:
           <div>
-            <div>Capa Convolucional - 32 filtros (3 x 3)<div></div>
+            <div>Capa Convolucional - 32 filtros (3 x 3)</div>
             <div>Capa de Max Pooling - (2 x 2)</div>
             <div>Capa Convolucional - 64 filtros (3 x 3)</div>
             <div>Capa de Max Pooling - (2 x 2)</div>
